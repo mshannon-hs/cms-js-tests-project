@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "lib": ["esnext", "dom"],
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "targets"]
+}

@@ -1,0 +1,5 @@
+{
+  "label": "cms-js-tests-assets",
+  "outputPath": "",
+  "secretNames": ["test_secret"]
+}
