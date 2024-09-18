@@ -15,7 +15,7 @@ export function Component(props: any) {
   const { fieldValues, hublParameters, hublData, experimentalHublData } = props;
   return (
     <div className={moduleStyles.module}>
-      3
+      4
       <UnstableModule name="myMod" path="@hubspot/button" />
       <div>{getSecret('test_secret')}</div>
       <pre>{JSON.stringify(props)}</pre>
